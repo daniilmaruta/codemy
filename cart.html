@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart_04</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/master.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="header-top-line">
+                    <div class="header__logo"><span class="header__logo--1">Super</span><br><span class="header__logo--2">SHOP</span></div>
+                    <nav class="header__menu">
+                        <ul class="header__menu_nav-menu">
+                            <li>категория 1</li>
+                            <li>категория 2</li>
+                            <li>категория 3</li>
+                            <li>категория 4</li>
+                        </ul>
+                    </nav>
+                    <div class="header__login">
+                        <ul class="header__login-menu">
+                            <img src="img/icon-login.png" alt="Войти"> <li><span>Войти</span></li>
+                            <li>Регистрация</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="header__cart">
+                            <span class="header__cart-price">46 945 </span>
+                            <span class="header__cart-currency">руб. </span><img src="img/icon-cart.png" alt="Корзина" /><br>
+                            <span class="header__cart-amount">2 предмета</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="category">
+      <div class="container">
+        <div class="row">
+          <h1 class="single-h1">Корзина</h1>
+        </div>
+      </div>
+    </section>
+    <section class="sektion1">
+        <div class="container">
+            <div class="row sektion-row">
+                <div class="row sektion__content">
+                  <div class="col-md-12">
+
+
+
+
+
+
+
+
+
+
+                    <form action="" method="post">
+                        <table class="cart__shop-table" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th class="cart__th-product-name" colspan="2">Товар</th>
+                                    <th class="cart__th-product-available">Доступность</th>
+                                    <th class="cart__th-product-price">Стоимость</th>
+                                    <th class="cart__th-product-quantity">Количество</th>
+                                    <th class="cart__th-product-subtotal">Итого</th>
+                                    <th class="cart__th-product-remove">&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="cart__item">
+                                    <td class="cart__product-thumbnail">
+                                        <a href="#"><img src="img/tennis-rocket/1_1-s1.jpg" class="cart__product-thumbnail-img" alt=""></a>
+                                    </td>
+                                    <td class="cart__product-name" data-title="Товар">
+                                        <a href="#">Название товара</a> </td>
+                                    <td class="cart__product-available" data-title="Доступностьь">
+                                        <span class="amount">Есть в наличии</span>
+                                    </td>
+                                    <td class="cart__product-price" data-title="Стоимость">
+                                        <span class="amount">14 000&nbsp;<span class="rur">руб.</span>
+                                        </span>
+                                    </td>
+                                    <td class="cart__product-quantity" data-title="Количество">
+                                        <div class="cart__product-quantity-num">
+                                            <div class="cart__product-quantity--cut-item">-</div>
+                                            <input step="1" min="0" max="" name="cart[8c9a14ffebb7677d033ffce847991293][qty]" value="1" title="Кол-во"
+                                            class="input-text qty text" size="4" type="number">
+                                            <div class="cart__product-quantity--add-item">+</div>
+                                        </div>
+                                    </td>
+                                    <td class="cart__product-subtotal" data-title="Итого">
+                                        <span class="amount">13 000&nbsp;<span class="rur">руб.</span>
+                                        </span>
+                                    </td>
+                                    <td class="cart__product-remove">
+                                        <a href="#" class="remove" title="Удалить эту позицию" data-product_id="3137" data-product_sku=""><img src="img/icon-remove.png" alt="X" /></a> </td>
+                                        <!-- <a href="http://airquadro.ru/cart/?remove_item=8c9a14ffebb7677d033ffce847991293&amp" class="remove" title="Удалить эту позицию" data-product_id="3137" data-product_sku=""><img src="img/icon-remove.png" alt="X" /></a> </td> -->
+
+                                </tr>
+                                <tr class="cart__item">
+                                    <td class="cart__product-thumbnail">
+                                        <a href="#"><img src="img/tennis-rocket/1_1-s1.jpg" class="cart__product-thumbnail-img" alt=""></a>
+                                    </td>
+                                    <td class="cart__product-name" data-title="Товар">
+                                        <a href="#">Название товара</a> </td>
+                                    <td class="cart__product-available" data-title="Доступность">
+                                        <span class="amount">Есть в наличии</span>
+                                    </td>
+                                    <td class="cart__product-price" data-title="Стоимость">
+                                        <span class="amount">14 000&nbsp;<span class="rur">руб.</span>
+                                        </span>
+                                    </td>
+                                    <td class="cart__product-quantity" data-title="Количество">
+                                        <div class="cart__product-quantity-num">
+                                          <div class="cart__product-quantity--cut-item">-</div>
+                                            <input step="1" min="0" max="" name="cart[7fa732b517cbed14a48843d74526c11a][qty]" value="2" title="Кол-во" class="input-text qty text" size="4" type="number">
+                                            <div class="cart__product-quantity--add-item">+</div>
+                                        </div>
+                                    </td>
+                                    <td class="cart__product-subtotal" data-title="Итого">
+                                        <span class="amount">28 000&nbsp;<span class="rur">руб.</span>
+                                        </span>
+                                    </td>
+                                    <td class="cart__product-remove">
+                                        <a href="#" class="remove" title="Удалить эту позицию" data-product_id="3137" data-product_sku=""><img src="img/icon-remove.png" alt="X" /></a> </td>
+
+                                </tr>
+                                <tr class="cart__item">
+                                    <td class="cart__product-thumbnail">
+                                        <a href="#"><img src="img/tennis-rocket/1_1-s1.jpg" class="cart__product-thumbnail-img" alt=""></a>
+                                    </td>
+                                    <td class="cart__product-name" data-title="Товар">
+                                        <a href="#">Название товара</a> </td>
+                                    <td class="cart__product-available" data-title="Доступность">
+                                        <span class="amount">Есть в наличии</span>
+                                    </td>
+                                    <td class="cart__product-price" data-title="Стоимость">
+                                        <span class="amount">14 000&nbsp;<span class="rur">руб.</span>
+                                        </span>
+                                    </td>
+                                    <td class="cart__product-quantity" data-title="Количество">
+                                        <div class="cart__product-quantity-num">
+                                          <div class="cart__product-quantity--cut-item">-</div>
+                                            <input  min="0" max="" name="cart[67d16d00201083a2b118dd5128dd6f59][qty]" value="6" title="Кол-во"
+                                            class="input-text qty text" size="4" type="number">
+                                            <div class="cart__product-quantity--add-item">+</div>
+                                        </div>
+                                    </td>
+                                    <td class="cart__product-subtotal" data-title="Итого">
+                                        <span class="amount">90 000&nbsp;<span class="rur">руб.</span>
+                                        </span>
+                                    </td>
+                                    <td class="cart__product-remove">
+                                        <a href="#" class="remove" title="Удалить эту позицию" data-product_id="3137" data-product_sku=""><img src="img/icon-remove.png" alt="X" /></a> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="cart__collaterals">
+                          <div class="cart__order-total">Итого: <span>131 000руб.</span></div>
+                          <button class="cart__back-to-shop">Вернуться к покупкам</button>
+                          <button class="cart__proceed-to-checkout">Оформить заказ</button>
+                        </div>
+                    </form>
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <!-- <a href="http://airquadro.ru/virtuemart/pnevmostoyka-na-toyota-crown-s140/"><img src="http://airquadro.ru/wp-content/uploads/2013/04/m3y-dnh_fww-50x67.jpg" class="cart__product-thumbnail-img" alt="m3y-dnh_fww" srcset="http://airquadro.ru/wp-content/uploads/2013/04/m3y-dnh_fww-50x67.jpg 50w, http://airquadro.ru/wp-content/uploads/2013/04/m3y-dnh_fww-225x300.jpg 225w, http://airquadro.ru/wp-content/uploads/2013/04/m3y-dnh_fww-255x340.jpg 255w, http://airquadro.ru/wp-content/uploads/2013/04/m3y-dnh_fww.jpg 453w"
+                            sizes="(max-width: 50px) 100vw, 50px" width="50" height="67"></a> -->
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+          </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row footer-row">
+              <div class="col-md-10 col-sm-11 col-xs-9"><div class="footer__info">Шаблон для экзаменационного задания.<br>
+Разработан специально для «Всероссийской Школы Программирования»<br>
+http://bedev.ru/</div></div><div class="col-md-2 col-sm-1 col-xs-3"><div id="scrollup" class="scrollTop" onclick="return up()"><span>Наверх </span><img src="img/top-arrow.png" alt="" /></div></div>
+            </div>
+          </div>
+    </footer>
+</body>
+
+</html>
